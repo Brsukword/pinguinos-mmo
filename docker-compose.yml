@@ -3,7 +3,7 @@ version: '3'
 services:
   backend:
     # Aquí Docker descargará tu imagen desde la nube automáticamente
-    image: tu_usuario_docker/pinguino-backend:latest
+    image: cesarric/pinguino-backend:latest
     restart: always
     ports:
       - "3000:3000"
@@ -12,7 +12,7 @@ services:
 
   nginx:
     # Aquí descargará el juego completo (HTML/JS/CSS ya están dentro)
-    image: tu_usuario_docker/pinguino-frontend:latest
+    image: cesarric/pinguino-frontend:latest
     restart: always
     ports:
       - "80:80"
