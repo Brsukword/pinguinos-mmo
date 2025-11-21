@@ -7,7 +7,7 @@ Desarrollado con Node.js (Socket.io), Nginx y Docker.
 
 Requisitos
 
-Tener Docker Desktop instalado.
+Tener Docker Desktop instalado. / en caso que no lo tenga instalado utilizar el Docker-installer.sh con bash Docker-installer.sh
 
 Tener Git instalado.
 
