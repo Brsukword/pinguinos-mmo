@@ -21,7 +21,10 @@ git clone [https://github.com/Brsukword/pinguinos-mmo.git](https://github.com/Br
 # 2. Entrar a la carpeta
 cd pinguinos-mmo
 
-# 3. Iniciar el servidor
+# 3. iniciar sesion en docker
+docker login
+
+# 4. Iniciar el servidor
 docker compose up --build
 
 
@@ -48,4 +51,4 @@ Dockerizado: Frontend (Nginx) y Backend (Node) totalmente aislados.
 
 Responsive: Funciona en PC y Celulares.
 
-Hecho por Brsukword
+Hecho por Brsukword(cesar)
